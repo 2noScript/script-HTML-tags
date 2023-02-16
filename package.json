@@ -1,0 +1,47 @@
+{
+  "name": "script-html",
+  "displayName": "Script HTML <tags/>",
+  "description": "none",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "keywords": [
+    "html",
+    "tags",
+    "auto tags",
+    "auto html",
+    "jsx",
+    "js",
+    "ts",
+    "tsx",
+    "reactjs",
+    "nextjs"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "publisher": "2noScript",
+  "icon": "icon.png",
+  "license": "none",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
